@@ -1,0 +1,780 @@
+[09/26/26 19:12:40] INFO     Adding job tentatively -- it will be   base.py:507
+                             properly scheduled when the scheduler             
+                             starts                                            
+[config] восстановлен сбор: Санкт-Петербург каждые 5.0 мин
+                    INFO     Adding job tentatively -- it will be   base.py:507
+                             properly scheduled when the scheduler             
+                             starts                                            
+[config] восстановлено расписание отчёта: {'interval_minutes': 15.0}
+                    INFO     Added job "_collect" to job store     base.py:1092
+                             "default"                                         
+                    INFO     Added job "_generate_report" to job   base.py:1092
+                             store "default"                                   
+                    INFO     Scheduler started                      base.py:214
+                    INFO     Running job "_collect (trigger:        base.py:179
+                             interval[0:05:00], next run at:                   
+                             2026-09-26 19:17:40 MSK)" (scheduled              
+                             at 2026-09-26 19:12:40.566700+03:00)              
+                    INFO     Processing request of type           server.py:733
+                             ListToolsRequest                                  
+                    INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+[09/26/26 19:12:41] INFO     HTTP Request: GET                  _client.py:1740
+                             https://geocoding-api.open-meteo.c                
+                             om/v1/search?name=%D0%A1%D0%B0%D0%                
+                             BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%                
+                             D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B                
+                             3&count=1&language=ru&format=json                 
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://geocoding-api.open-meteo.c                
+                             om/v1/search?name=%D0%A1%D0%B0%D0%                
+                             BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%                
+                             D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B                
+                             3&count=1&language=ru&format=json                 
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://api.open-meteo.com/v1/fore                
+                             cast?latitude=59.93863&longitude=3                
+                             0.31413&current=temperature_2m%2Cr                
+                             elative_humidity_2m%2Capparent_tem                
+                             perature%2Cprecipitation%2Cweather                
+                             _code%2Cwind_speed_10m&timezone=au                
+                             to "HTTP/1.1 200 OK"                              
+                    INFO     Added job "_collect" to job store     base.py:1092
+                             "default"                                         
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://api.open-meteo.com/v1/fore                
+                             cast?latitude=59.93863&longitude=3                
+                             0.31413&current=temperature_2m%2Cr                
+                             elative_humidity_2m%2Capparent_tem                
+                             perature%2Cprecipitation%2Cweather                
+                             _code%2Cwind_speed_10m&timezone=au                
+                             to "HTTP/1.1 200 OK"                              
+                    WARNING  Execution of job "_collect (trigger:  base.py:1199
+                             interval[0:05:00], next run at:                   
+                             2026-09-26 19:12:41 MSK)" skipped:                
+                             maximum number of running instances               
+                             reached (1)                                       
+[collect] Санкт-Петербург: пасмурно, 13.1 °C, 0.0 мм
+                    INFO     Job "_collect (trigger:                base.py:203
+                             interval[0:05:00], next run at:                   
+                             2026-09-26 19:17:40 MSK)" executed                
+                             successfully                                      
+[09/26/26 19:12:42] INFO     HTTP Request: GET                  _client.py:1740
+                             https://geocoding-api.open-meteo.c                
+                             om/v1/search?name=%D0%A1%D0%B0%D0%                
+                             BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%                
+                             D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B                
+                             3&count=1&language=ru&format=json                 
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://api.open-meteo.com/v1/fore                
+                             cast?latitude=59.93863&longitude=3                
+                             0.31413&current=temperature_2m%2Cr                
+                             elative_humidity_2m%2Capparent_tem                
+                             perature%2Cprecipitation%2Cweather                
+                             _code%2Cwind_speed_10m&timezone=au                
+                             to "HTTP/1.1 200 OK"                              
+[collect] Санкт-Петербург: пасмурно, 13.1 °C, 0.0 мм
+                    INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+                    INFO     Added job "_generate_report" to job   base.py:1092
+                             store "default"                                   
+[09/26/26 19:13:12] INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+[09/26/26 19:13:30] INFO     Scheduler has been shut down           base.py:245
+                             properly scheduled when the scheduler             
+                             starts                                            
+[config] восстановлен сбор: Санкт-Петербург каждые 5.0 мин
+                    INFO     Adding job tentatively -- it will be   base.py:507
+                             properly scheduled when the scheduler             
+                             starts                                            
+[config] восстановлено расписание отчёта: {'interval_minutes': 15.0}
+                    INFO     Added job "_collect" to job store     base.py:1092
+                             "default"                                         
+                    INFO     Added job "_generate_report" to job   base.py:1092
+                             store "default"                                   
+                    INFO     Scheduler started                      base.py:214
+                    INFO     Running job "_collect (trigger:        base.py:179
+                             interval[0:05:00], next run at:                   
+                             2026-09-26 19:18:26 MSK)" (scheduled              
+                             at 2026-09-26 19:13:26.241971+03:00)              
+                    INFO     Processing request of type           server.py:733
+                             ListToolsRequest                                  
+                    INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://geocoding-api.open-meteo.c                
+                             om/v1/search?name=%D0%A1%D0%B0%D0%                
+                             BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%                
+                             D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B                
+                             3&count=1&language=ru&format=json                 
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://geocoding-api.open-meteo.c                
+                             om/v1/search?name=%D0%A1%D0%B0%D0%                
+                             BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%                
+                             D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B                
+                             3&count=1&language=ru&format=json                 
+                             "HTTP/1.1 200 OK"                                 
+[09/26/26 19:13:27] INFO     HTTP Request: GET                  _client.py:1740
+                             https://api.open-meteo.com/v1/fore                
+                             cast?latitude=59.93863&longitude=3                
+                             0.31413&current=temperature_2m%2Cr                
+                             elative_humidity_2m%2Capparent_tem                
+                             perature%2Cprecipitation%2Cweather                
+                             _code%2Cwind_speed_10m&timezone=au                
+                             to "HTTP/1.1 200 OK"                              
+                    INFO     Added job "_collect" to job store     base.py:1092
+                             "default"                                         
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://api.open-meteo.com/v1/fore                
+                             cast?latitude=59.93863&longitude=3                
+                             0.31413&current=temperature_2m%2Cr                
+                             elative_humidity_2m%2Capparent_tem                
+                             perature%2Cprecipitation%2Cweather                
+                             _code%2Cwind_speed_10m&timezone=au                
+                             to "HTTP/1.1 200 OK"                              
+                    WARNING  Execution of job "_collect (trigger:  base.py:1199
+                             interval[0:05:00], next run at:                   
+                             2026-09-26 19:13:27 MSK)" skipped:                
+                             maximum number of running instances               
+                             reached (1)                                       
+[collect] Санкт-Петербург: пасмурно, 13.1 °C, 0.0 мм
+                    INFO     Job "_collect (trigger:                base.py:203
+                             interval[0:05:00], next run at:                   
+                             2026-09-26 19:18:26 MSK)" executed                
+                             successfully                                      
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://geocoding-api.open-meteo.c                
+                             om/v1/search?name=%D0%A1%D0%B0%D0%                
+                             BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%                
+                             D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B                
+                             3&count=1&language=ru&format=json                 
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://api.open-meteo.com/v1/fore                
+                             cast?latitude=59.93863&longitude=3                
+                             0.31413&current=temperature_2m%2Cr                
+                             elative_humidity_2m%2Capparent_tem                
+                             perature%2Cprecipitation%2Cweather                
+                             _code%2Cwind_speed_10m&timezone=au                
+                             to "HTTP/1.1 200 OK"                              
+[collect] Санкт-Петербург: пасмурно, 13.1 °C, 0.0 мм
+[09/26/26 19:13:28] INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+                    INFO     Added job "_generate_report" to job   base.py:1092
+                             store "default"                                   
+[09/26/26 19:13:30] INFO     Scheduler has been shut down           base.py:245
+utes': 15.0}
+[09/26/26 19:19:37] INFO     Adding job tentatively -- it will be   base.py:507
+                             properly scheduled when the scheduler             
+                             starts                                            
+[config] восстановлен сбор: Санкт-Петербург каждые 5.0 мин
+                    INFO     Adding job tentatively -- it will be   base.py:507
+                             properly scheduled when the scheduler             
+                             starts                                            
+[config] восстановлено расписание отчёта: {'interval_minutes': 15.0}
+                    INFO     Added job "_collect" to job store     base.py:1092
+                             "default"                                         
+                    INFO     Added job "_generate_report" to job   base.py:1092
+                             store "default"                                   
+                    INFO     Scheduler started                      base.py:214
+                    INFO     Running job "_collect (trigger:        base.py:179
+                             interval[0:05:00], next run at:                   
+                             2026-09-26 19:24:37 MSK)" (scheduled              
+                             at 2026-09-26 19:19:37.008933+03:00)              
+                    INFO     Processing request of type           server.py:733
+                             ListToolsRequest                                  
+                    INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://geocoding-api.open-meteo.c                
+                             om/v1/search?name=%D0%A1%D0%B0%D0%                
+                             BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%                
+                             D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B                
+                             3&count=1&language=ru&format=json                 
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://geocoding-api.open-meteo.c                
+                             om/v1/search?name=%D0%A1%D0%B0%D0%                
+                             BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%                
+                             D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B                
+                             3&count=1&language=ru&format=json                 
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://api.open-meteo.com/v1/fore                
+                             cast?latitude=59.93863&longitude=3                
+                             0.31413&current=temperature_2m%2Cr                
+                             elative_humidity_2m%2Capparent_tem                
+                             perature%2Cprecipitation%2Cweather                
+                             _code%2Cwind_speed_10m&timezone=au                
+                             to "HTTP/1.1 200 OK"                              
+[collect] Санкт-Петербург: пасмурно, 13.0 °C, 0.0 мм
+                    INFO     Job "_collect (trigger:                base.py:203
+                             interval[0:05:00], next run at:                   
+                             2026-09-26 19:24:37 MSK)" executed                
+                             successfully                                      
+[09/26/26 19:19:38] INFO     HTTP Request: GET                  _client.py:1740
+                             https://api.open-meteo.com/v1/fore                
+                             cast?latitude=59.93863&longitude=3                
+                             0.31413&current=temperature_2m%2Cr                
+                             elative_humidity_2m%2Capparent_tem                
+                             perature%2Cprecipitation%2Cweather                
+                             _code%2Cwind_speed_10m&timezone=au                
+                             to "HTTP/1.1 200 OK"                              
+                    INFO     Added job "_collect" to job store     base.py:1092
+                             "default"                                         
+                    INFO     Running job "_collect (trigger:        base.py:179
+                             interval[0:05:00], next run at:                   
+                             2026-09-26 19:24:38 MSK)" (scheduled              
+                             at 2026-09-26 19:19:38.029108+03:00)              
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://geocoding-api.open-meteo.c                
+                             om/v1/search?name=%D0%A1%D0%B0%D0%                
+                             BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%                
+                             D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B                
+                             3&count=1&language=ru&format=json                 
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://geocoding-api.open-meteo.c                
+                             om/v1/search?name=%D0%A1%D0%B0%D0%                
+                             BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%                
+                             D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B                
+                             3&count=1&language=ru&format=json                 
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://api.open-meteo.com/v1/fore                
+                             cast?latitude=59.93863&longitude=3                
+                             0.31413&current=temperature_2m%2Cr                
+                             elative_humidity_2m%2Capparent_tem                
+                             perature%2Cprecipitation%2Cweather                
+                             _code%2Cwind_speed_10m&timezone=au                
+                             to "HTTP/1.1 200 OK"                              
+[collect] Санкт-Петербург: пасмурно, 13.0 °C, 0.0 мм
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://api.open-meteo.com/v1/fore                
+                             cast?latitude=59.93863&longitude=3                
+                             0.31413&current=temperature_2m%2Cr                
+                             elative_humidity_2m%2Capparent_tem                
+                             perature%2Cprecipitation%2Cweather                
+                             _code%2Cwind_speed_10m&timezone=au                
+                             to "HTTP/1.1 200 OK"                              
+[collect] Санкт-Петербург: пасмурно, 13.0 °C, 0.0 мм
+                    INFO     Job "_collect (trigger:                base.py:203
+                             interval[0:05:00], next run at:                   
+                             2026-09-26 19:24:38 MSK)" executed                
+                             successfully                                      
+                    INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+                    INFO     Added job "_generate_report" to job   base.py:1092
+                             store "default"                                   
+[09/26/26 19:19:40] INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+[09/26/26 19:19:50] INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://geocoding-api.open-meteo.c                
+                             om/v1/search?name=%D0%A1%D0%B0%D0%                
+                             BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%                
+                             D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B                
+                             3&count=1&language=ru&format=json                 
+                             "HTTP/1.1 200 OK"                                 
+[09/26/26 19:19:51] INFO     HTTP Request: GET                  _client.py:1740
+                             https://api.open-meteo.com/v1/fore                
+                             cast?latitude=59.93863&longitude=3                
+                             0.31413&current=temperature_2m%2Cr                
+                             elative_humidity_2m%2Capparent_tem                
+                             perature%2Cprecipitation%2Cweather                
+                             _code%2Cwind_speed_10m&timezone=au                
+                             to "HTTP/1.1 200 OK"                              
+                    INFO     Added job "_collect" to job store     base.py:1092
+                             "default"                                         
+                    INFO     Running job "_collect (trigger:        base.py:179
+                             interval[0:01:00], next run at:                   
+                             2026-09-26 19:20:51 MSK)" (scheduled              
+                             at 2026-09-26 19:19:51.344923+03:00)              
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://geocoding-api.open-meteo.c                
+                             om/v1/search?name=%D0%A1%D0%B0%D0%                
+                             BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%                
+                             D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B                
+                             3&count=1&language=ru&format=json                 
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://geocoding-api.open-meteo.c                
+                             om/v1/search?name=%D0%A1%D0%B0%D0%                
+                             BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%                
+                             D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B                
+                             3&count=1&language=ru&format=json                 
+                             "HTTP/1.1 200 OK"                                 
+[09/26/26 19:19:52] INFO     HTTP Request: GET                  _client.py:1740
+                             https://api.open-meteo.com/v1/fore                
+                             cast?latitude=59.93863&longitude=3                
+                             0.31413&current=temperature_2m%2Cr                
+                             elative_humidity_2m%2Capparent_tem                
+                             perature%2Cprecipitation%2Cweather                
+                             _code%2Cwind_speed_10m&timezone=au                
+                             to "HTTP/1.1 200 OK"                              
+[collect] Санкт-Петербург: пасмурно, 13.0 °C, 0.0 мм
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://api.open-meteo.com/v1/fore                
+                             cast?latitude=59.93863&longitude=3                
+                             0.31413&current=temperature_2m%2Cr                
+                             elative_humidity_2m%2Capparent_tem                
+                             perature%2Cprecipitation%2Cweather                
+                             _code%2Cwind_speed_10m&timezone=au                
+                             to "HTTP/1.1 200 OK"                              
+[collect] Санкт-Петербург: пасмурно, 13.0 °C, 0.0 мм
+                    INFO     Job "_collect (trigger:                base.py:203
+                             interval[0:01:00], next run at:                   
+                             2026-09-26 19:20:51 MSK)" executed                
+                             successfully                                      
+                    INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+                    INFO     Added job "_generate_report" to job   base.py:1092
+                             store "default"                                   
+[09/26/26 19:20:00] INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+[09/26/26 19:20:04] INFO     Scheduler has been shut down           base.py:245
+[09/26/26 19:38:35] INFO     Adding job tentatively -- it will be   base.py:507
+                             properly scheduled when the scheduler             
+                             starts                                            
+[config] восстановлен сбор: Санкт-Петербург каждые 1.0 мин
+                    INFO     Adding job tentatively -- it will be   base.py:507
+                             properly scheduled when the scheduler             
+                             starts                                            
+[config] восстановлено расписание отчёта: {'interval_minutes': 3.0}
+                    INFO     Added job "_collect" to job store     base.py:1092
+                             "default"                                         
+                    INFO     Added job "_generate_report" to job   base.py:1092
+                             store "default"                                   
+                    INFO     Scheduler started                      base.py:214
+                    INFO     Running job "_collect (trigger:        base.py:179
+                             interval[0:01:00], next run at:                   
+                             2026-09-26 19:39:35 MSK)" (scheduled              
+                             at 2026-09-26 19:38:35.049335+03:00)              
+                    INFO     Processing request of type           server.py:733
+                             ListToolsRequest                                  
+                    INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://geocoding-api.open-meteo.c                
+                             om/v1/search?name=%D0%A1%D0%B0%D0%                
+                             BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%                
+                             D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B                
+                             3&count=1&language=ru&format=json                 
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://geocoding-api.open-meteo.c                
+                             om/v1/search?name=%D0%A1%D0%B0%D0%                
+                             BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%                
+                             D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B                
+                             3&count=1&language=ru&format=json                 
+                             "HTTP/1.1 200 OK"                                 
+[09/26/26 19:38:36] INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://api.open-meteo.com/v1/fore                
+                             cast?latitude=59.93863&longitude=3                
+                             0.31413&current=temperature_2m%2Cr                
+                             elative_humidity_2m%2Capparent_tem                
+                             perature%2Cprecipitation%2Cweather                
+                             _code%2Cwind_speed_10m&timezone=au                
+                             to "HTTP/1.1 200 OK"                              
+                    INFO     Added job "_collect" to job store     base.py:1092
+                             "default"                                         
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://api.open-meteo.com/v1/fore                
+                             cast?latitude=59.93863&longitude=3                
+                             0.31413&current=temperature_2m%2Cr                
+                             elative_humidity_2m%2Capparent_tem                
+                             perature%2Cprecipitation%2Cweather                
+                             _code%2Cwind_speed_10m&timezone=au                
+                             to "HTTP/1.1 200 OK"                              
+                    WARNING  Execution of job "_collect (trigger:  base.py:1199
+                             interval[0:05:00], next run at:                   
+                             2026-09-26 19:38:36 MSK)" skipped:                
+                             maximum number of running instances               
+                             reached (1)                                       
+[collect] Санкт-Петербург: пасмурно, 13.0 °C, 0.0 мм
+                    INFO     Job "_collect (trigger:                base.py:203
+                             interval[0:01:00], next run at:                   
+                             2026-09-26 19:39:35 MSK)" executed                
+                             successfully                                      
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://geocoding-api.open-meteo.c                
+                             om/v1/search?name=%D0%A1%D0%B0%D0%                
+                             BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%                
+                             D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B                
+                             3&count=1&language=ru&format=json                 
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://api.open-meteo.com/v1/fore                
+                             cast?latitude=59.93863&longitude=3                
+                             0.31413&current=temperature_2m%2Cr                
+                             elative_humidity_2m%2Capparent_tem                
+                             perature%2Cprecipitation%2Cweather                
+                             _code%2Cwind_speed_10m&timezone=au                
+                             to "HTTP/1.1 200 OK"                              
+[collect] Санкт-Петербург: пасмурно, 13.0 °C, 0.0 мм
+                    INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+                    INFO     Added job "_generate_report" to job   base.py:1092
+                             store "default"                                   
+[09/26/26 19:38:45] INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+[09/26/26 19:38:46] INFO     HTTP Request: GET                  _client.py:1740
+                             https://geocoding-api.open-meteo.c                
+                             om/v1/search?name=%D0%A1%D0%B0%D0%                
+                             BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%                
+                             D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B                
+                             3&count=1&language=ru&format=json                 
+                             "HTTP/1.1 200 OK"                                 
+[09/26/26 19:38:47] INFO     HTTP Request: GET                  _client.py:1740
+                             https://api.open-meteo.com/v1/fore                
+                             cast?latitude=59.93863&longitude=3                
+                             0.31413&current=temperature_2m%2Cr                
+                             elative_humidity_2m%2Capparent_tem                
+                             perature%2Cprecipitation%2Cweather                
+                             _code%2Cwind_speed_10m&timezone=au                
+                             to "HTTP/1.1 200 OK"                              
+                    INFO     Added job "_collect" to job store     base.py:1092
+                             "default"                                         
+                    INFO     Running job "_collect (trigger:        base.py:179
+                             interval[0:01:00], next run at:                   
+                             2026-09-26 19:39:47 MSK)" (scheduled              
+                             at 2026-09-26 19:38:47.732386+03:00)              
+[09/26/26 19:38:48] INFO     HTTP Request: GET                  _client.py:1740
+                             https://geocoding-api.open-meteo.c                
+                             om/v1/search?name=%D0%A1%D0%B0%D0%                
+                             BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%                
+                             D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B                
+                             3&count=1&language=ru&format=json                 
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://geocoding-api.open-meteo.c                
+                             om/v1/search?name=%D0%A1%D0%B0%D0%                
+                             BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%                
+                             D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B                
+                             3&count=1&language=ru&format=json                 
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://api.open-meteo.com/v1/fore                
+                             cast?latitude=59.93863&longitude=3                
+                             0.31413&current=temperature_2m%2Cr                
+                             elative_humidity_2m%2Capparent_tem                
+                             perature%2Cprecipitation%2Cweather                
+                             _code%2Cwind_speed_10m&timezone=au                
+                             to "HTTP/1.1 200 OK"                              
+[collect] Санкт-Петербург: пасмурно, 13.0 °C, 0.0 мм
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://api.open-meteo.com/v1/fore                
+                             cast?latitude=59.93863&longitude=3                
+                             0.31413&current=temperature_2m%2Cr                
+                             elative_humidity_2m%2Capparent_tem                
+                             perature%2Cprecipitation%2Cweather                
+                             _code%2Cwind_speed_10m&timezone=au                
+                             to "HTTP/1.1 200 OK"                              
+[collect] Санкт-Петербург: пасмурно, 13.0 °C, 0.0 мм
+                    INFO     Job "_collect (trigger:                base.py:203
+                             interval[0:01:00], next run at:                   
+                             2026-09-26 19:39:47 MSK)" executed                
+                             successfully                                      
+                    INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+                    INFO     Added job "_generate_report" to job   base.py:1092
+                             store "default"                                   
+[09/26/26 19:39:06] INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+[09/26/26 19:39:28] INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+[09/26/26 19:39:36] INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+[09/26/26 19:39:40] INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://geocoding-api.open-meteo.c                
+                             om/v1/search?name=%D0%A1%D0%B0%D0%                
+                             BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%                
+                             D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B                
+                             3&count=1&language=ru&format=json                 
+                             "HTTP/1.1 200 OK"                                 
+[09/26/26 19:39:41] INFO     HTTP Request: GET                  _client.py:1740
+                             https://api.open-meteo.com/v1/fore                
+                             cast?latitude=59.93863&longitude=3                
+                             0.31413&current=temperature_2m%2Cr                
+                             elative_humidity_2m%2Capparent_tem                
+                             perature%2Cprecipitation%2Cweather                
+                             _code%2Cwind_speed_10m&timezone=au                
+                             to "HTTP/1.1 200 OK"                              
+                    INFO     Added job "_collect" to job store     base.py:1092
+                             "default"                                         
+                    INFO     Running job "_collect (trigger:        base.py:179
+                             interval[0:01:00], next run at:                   
+                             2026-09-26 19:40:41 MSK)" (scheduled              
+                             at 2026-09-26 19:39:41.208792+03:00)              
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://geocoding-api.open-meteo.c                
+                             om/v1/search?name=%D0%A1%D0%B0%D0%                
+                             BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%                
+                             D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B                
+                             3&count=1&language=ru&format=json                 
+                             "HTTP/1.1 200 OK"                                 
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://geocoding-api.open-meteo.c                
+                             om/v1/search?name=%D0%A1%D0%B0%D0%                
+                             BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%                
+                             D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B                
+                             3&count=1&language=ru&format=json                 
+                             "HTTP/1.1 200 OK"                                 
+[09/26/26 19:39:42] INFO     HTTP Request: GET                  _client.py:1740
+                             https://api.open-meteo.com/v1/fore                
+                             cast?latitude=59.93863&longitude=3                
+                             0.31413&current=temperature_2m%2Cr                
+                             elative_humidity_2m%2Capparent_tem                
+                             perature%2Cprecipitation%2Cweather                
+                             _code%2Cwind_speed_10m&timezone=au                
+                             to "HTTP/1.1 200 OK"                              
+[collect] Санкт-Петербург: пасмурно, 13.0 °C, 0.0 мм
+                    INFO     Job "_collect (trigger:                base.py:203
+                             interval[0:01:00], next run at:                   
+                             2026-09-26 19:40:41 MSK)" executed                
+                             successfully                                      
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://api.open-meteo.com/v1/fore                
+                             cast?latitude=59.93863&longitude=3                
+                             0.31413&current=temperature_2m%2Cr                
+                             elative_humidity_2m%2Capparent_tem                
+                             perature%2Cprecipitation%2Cweather                
+                             _code%2Cwind_speed_10m&timezone=au                
+                             to "HTTP/1.1 200 OK"                              
+[collect] Санкт-Петербург: пасмурно, 13.0 °C, 0.0 мм
+                    INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+                    INFO     Added job "_generate_report" to job   base.py:1092
+                             store "default"                                   
+[09/26/26 19:40:06] INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+[09/26/26 19:40:36] INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+[09/26/26 19:40:41] INFO     Running job "_collect (trigger:        base.py:179
+                             interval[0:01:00], next run at:                   
+                             2026-09-26 19:41:41 MSK)" (scheduled              
+                             at 2026-09-26 19:40:41.208792+03:00)              
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://geocoding-api.open-meteo.c                
+                             om/v1/search?name=%D0%A1%D0%B0%D0%                
+                             BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%                
+                             D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B                
+                             3&count=1&language=ru&format=json                 
+                             "HTTP/1.1 200 OK"                                 
+[09/26/26 19:40:42] INFO     HTTP Request: GET                  _client.py:1740
+                             https://api.open-meteo.com/v1/fore                
+                             cast?latitude=59.93863&longitude=3                
+                             0.31413&current=temperature_2m%2Cr                
+                             elative_humidity_2m%2Capparent_tem                
+                             perature%2Cprecipitation%2Cweather                
+                             _code%2Cwind_speed_10m&timezone=au                
+                             to "HTTP/1.1 200 OK"                              
+[collect] Санкт-Петербург: пасмурно, 13.0 °C, 0.0 мм
+                    INFO     Job "_collect (trigger:                base.py:203
+                             interval[0:01:00], next run at:                   
+                             2026-09-26 19:41:41 MSK)" executed                
+                             successfully                                      
+[09/26/26 19:41:06] INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+[09/26/26 19:41:37] INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+[09/26/26 19:41:41] INFO     Running job "_collect (trigger:        base.py:179
+                             interval[0:01:00], next run at:                   
+                             2026-09-26 19:42:41 MSK)" (scheduled              
+                             at 2026-09-26 19:41:41.208792+03:00)              
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://geocoding-api.open-meteo.c                
+                             om/v1/search?name=%D0%A1%D0%B0%D0%                
+                             BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%                
+                             D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B                
+                             3&count=1&language=ru&format=json                 
+                             "HTTP/1.1 200 OK"                                 
+[09/26/26 19:41:42] INFO     HTTP Request: GET                  _client.py:1740
+                             https://api.open-meteo.com/v1/fore                
+                             cast?latitude=59.93863&longitude=3                
+                             0.31413&current=temperature_2m%2Cr                
+                             elative_humidity_2m%2Capparent_tem                
+                             perature%2Cprecipitation%2Cweather                
+                             _code%2Cwind_speed_10m&timezone=au                
+                             to "HTTP/1.1 200 OK"                              
+[collect] Санкт-Петербург: пасмурно, 13.0 °C, 0.0 мм
+                    INFO     Job "_collect (trigger:                base.py:203
+                             interval[0:01:00], next run at:                   
+                             2026-09-26 19:42:41 MSK)" executed                
+                             successfully                                      
+[09/26/26 19:41:43] INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+[09/26/26 19:42:07] INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+[09/26/26 19:42:37] INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+[09/26/26 19:42:41] INFO     Running job "_collect (trigger:        base.py:179
+                             interval[0:01:00], next run at:                   
+                             2026-09-26 19:43:41 MSK)" (scheduled              
+                             at 2026-09-26 19:42:41.208792+03:00)              
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://geocoding-api.open-meteo.c                
+                             om/v1/search?name=%D0%A1%D0%B0%D0%                
+                             BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%                
+                             D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B                
+                             3&count=1&language=ru&format=json                 
+                             "HTTP/1.1 200 OK"                                 
+[09/26/26 19:42:42] INFO     HTTP Request: GET                  _client.py:1740
+                             https://api.open-meteo.com/v1/fore                
+                             cast?latitude=59.93863&longitude=3                
+                             0.31413&current=temperature_2m%2Cr                
+                             elative_humidity_2m%2Capparent_tem                
+                             perature%2Cprecipitation%2Cweather                
+                             _code%2Cwind_speed_10m&timezone=au                
+                             to "HTTP/1.1 200 OK"                              
+[collect] Санкт-Петербург: пасмурно, 13.0 °C, 0.0 мм
+                    INFO     Job "_collect (trigger:                base.py:203
+                             interval[0:01:00], next run at:                   
+                             2026-09-26 19:43:41 MSK)" executed                
+                             successfully                                      
+                    INFO     Running job "_generate_report          base.py:129
+                             (trigger: interval[0:03:00], next run             
+                             at: 2026-09-26 19:45:42 MSK)"                     
+                             (scheduled at 2026-09-26                          
+                             19:42:42.138882+03:00)                            
+[report] отчёт сгенерирован: Санкт-Петербург, замеров 23
+                    INFO     Job "_generate_report (trigger:        base.py:156
+                             interval[0:03:00], next run at:                   
+                             2026-09-26 19:45:42 MSK)" executed                
+                             successfully                                      
+[09/26/26 19:43:07] INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+[09/26/26 19:43:37] INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+[09/26/26 19:43:41] INFO     Running job "_collect (trigger:        base.py:179
+                             interval[0:01:00], next run at:                   
+                             2026-09-26 19:44:41 MSK)" (scheduled              
+                             at 2026-09-26 19:43:41.208792+03:00)              
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://geocoding-api.open-meteo.c                
+                             om/v1/search?name=%D0%A1%D0%B0%D0%                
+                             BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%                
+                             D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B                
+                             3&count=1&language=ru&format=json                 
+                             "HTTP/1.1 200 OK"                                 
+[09/26/26 19:43:42] INFO     HTTP Request: GET                  _client.py:1740
+                             https://api.open-meteo.com/v1/fore                
+                             cast?latitude=59.93863&longitude=3                
+                             0.31413&current=temperature_2m%2Cr                
+                             elative_humidity_2m%2Capparent_tem                
+                             perature%2Cprecipitation%2Cweather                
+                             _code%2Cwind_speed_10m&timezone=au                
+                             to "HTTP/1.1 200 OK"                              
+[collect] Санкт-Петербург: пасмурно, 13.0 °C, 0.0 мм
+                    INFO     Job "_collect (trigger:                base.py:203
+                             interval[0:01:00], next run at:                   
+                             2026-09-26 19:44:41 MSK)" executed                
+                             successfully                                      
+[09/26/26 19:44:07] INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+[09/26/26 19:44:37] INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+[09/26/26 19:44:41] INFO     Running job "_collect (trigger:        base.py:179
+                             interval[0:01:00], next run at:                   
+                             2026-09-26 19:45:41 MSK)" (scheduled              
+                             at 2026-09-26 19:44:41.208792+03:00)              
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://geocoding-api.open-meteo.c                
+                             om/v1/search?name=%D0%A1%D0%B0%D0%                
+                             BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%                
+                             D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B                
+                             3&count=1&language=ru&format=json                 
+                             "HTTP/1.1 200 OK"                                 
+[09/26/26 19:44:42] INFO     HTTP Request: GET                  _client.py:1740
+                             https://api.open-meteo.com/v1/fore                
+                             cast?latitude=59.93863&longitude=3                
+                             0.31413&current=temperature_2m%2Cr                
+                             elative_humidity_2m%2Capparent_tem                
+                             perature%2Cprecipitation%2Cweather                
+                             _code%2Cwind_speed_10m&timezone=au                
+                             to "HTTP/1.1 200 OK"                              
+[collect] Санкт-Петербург: пасмурно, 13.0 °C, 0.0 мм
+                    INFO     Job "_collect (trigger:                base.py:203
+                             interval[0:01:00], next run at:                   
+                             2026-09-26 19:45:41 MSK)" executed                
+                             successfully                                      
+[09/26/26 19:45:07] INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+[09/26/26 19:45:37] INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+[09/26/26 19:45:41] INFO     Running job "_collect (trigger:        base.py:179
+                             interval[0:01:00], next run at:                   
+                             2026-09-26 19:46:41 MSK)" (scheduled              
+                             at 2026-09-26 19:45:41.208792+03:00)              
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://geocoding-api.open-meteo.c                
+                             om/v1/search?name=%D0%A1%D0%B0%D0%                
+                             BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%                
+                             D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B                
+                             3&count=1&language=ru&format=json                 
+                             "HTTP/1.1 200 OK"                                 
+[09/26/26 19:45:42] INFO     HTTP Request: GET                  _client.py:1740
+                             https://api.open-meteo.com/v1/fore                
+                             cast?latitude=59.93863&longitude=3                
+                             0.31413&current=temperature_2m%2Cr                
+                             elative_humidity_2m%2Capparent_tem                
+                             perature%2Cprecipitation%2Cweather                
+                             _code%2Cwind_speed_10m&timezone=au                
+                             to "HTTP/1.1 200 OK"                              
+[collect] Санкт-Петербург: пасмурно, 13.0 °C, 0.0 мм
+                    INFO     Job "_collect (trigger:                base.py:203
+                             interval[0:01:00], next run at:                   
+                             2026-09-26 19:46:41 MSK)" executed                
+                             successfully                                      
+                    INFO     Running job "_generate_report          base.py:129
+                             (trigger: interval[0:03:00], next run             
+                             at: 2026-09-26 19:48:42 MSK)"                     
+                             (scheduled at 2026-09-26                          
+                             19:45:42.138882+03:00)                            
+[report] отчёт сгенерирован: Санкт-Петербург, замеров 3
+                    INFO     Job "_generate_report (trigger:        base.py:156
+                             interval[0:03:00], next run at:                   
+                             2026-09-26 19:48:42 MSK)" executed                
+                             successfully                                      
+[09/26/26 19:46:07] INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+[09/26/26 19:46:37] INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+[09/26/26 19:46:41] INFO     Running job "_collect (trigger:        base.py:179
+                             interval[0:01:00], next run at:                   
+                             2026-09-26 19:47:41 MSK)" (scheduled              
+                             at 2026-09-26 19:46:41.208792+03:00)              
+                    INFO     HTTP Request: GET                  _client.py:1740
+                             https://geocoding-api.open-meteo.c                
+                             om/v1/search?name=%D0%A1%D0%B0%D0%                
+                             BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%                
+                             D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B                
+                             3&count=1&language=ru&format=json                 
+                             "HTTP/1.1 200 OK"                                 
+[09/26/26 19:46:42] INFO     HTTP Request: GET                  _client.py:1740
+                             https://api.open-meteo.com/v1/fore                
+                             cast?latitude=59.93863&longitude=3                
+                             0.31413&current=temperature_2m%2Cr                
+                             elative_humidity_2m%2Capparent_tem                
+                             perature%2Cprecipitation%2Cweather                
+                             _code%2Cwind_speed_10m&timezone=au                
+                             to "HTTP/1.1 200 OK"                              
+[collect] Санкт-Петербург: пасмурно, 13.0 °C, 0.0 мм
+                    INFO     Job "_collect (trigger:                base.py:203
+                             interval[0:01:00], next run at:                   
+                             2026-09-26 19:47:41 MSK)" executed                
+                             successfully                                      
+[09/26/26 19:47:07] INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+[09/26/26 19:47:37] INFO     Processing request of type           server.py:733
+                             CallToolRequest                                   
+[09/26/26 19:47:38] INFO     Scheduler has been shut down           base.py:245

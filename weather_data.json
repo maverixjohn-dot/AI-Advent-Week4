@@ -1,0 +1,389 @@
+{
+  "observations": [
+    {
+      "city": "Санкт-Петербург",
+      "ts_utc": "2026-09-26T13:08:57+00:00",
+      "time": "2026-09-26T16:00",
+      "temperature_c": 13.4,
+      "apparent_temperature_c": 10.4,
+      "humidity_percent": 77,
+      "wind_speed_kmh": 19.1,
+      "precipitation_mm": 0.0,
+      "weather_code": 3,
+      "conditions": "пасмурно"
+    },
+    {
+      "city": "Санкт-Петербург",
+      "ts_utc": "2026-09-26T13:08:57+00:00",
+      "time": "2026-09-26T16:00",
+      "temperature_c": 13.4,
+      "apparent_temperature_c": 10.4,
+      "humidity_percent": 77,
+      "wind_speed_kmh": 19.1,
+      "precipitation_mm": 0.0,
+      "weather_code": 3,
+      "conditions": "пасмурно"
+    },
+    {
+      "city": "Санкт-Петербург",
+      "ts_utc": "2026-09-26T13:13:24+00:00",
+      "time": "2026-09-26T16:00",
+      "temperature_c": 13.4,
+      "apparent_temperature_c": 10.4,
+      "humidity_percent": 77,
+      "wind_speed_kmh": 19.1,
+      "precipitation_mm": 0.0,
+      "weather_code": 3,
+      "conditions": "пасмурно"
+    },
+    {
+      "city": "Санкт-Петербург",
+      "ts_utc": "2026-09-26T13:13:25+00:00",
+      "time": "2026-09-26T16:00",
+      "temperature_c": 13.4,
+      "apparent_temperature_c": 10.4,
+      "humidity_percent": 77,
+      "wind_speed_kmh": 19.1,
+      "precipitation_mm": 0.0,
+      "weather_code": 3,
+      "conditions": "пасмурно"
+    },
+    {
+      "city": "Санкт-Петербург",
+      "ts_utc": "2026-09-26T13:18:25+00:00",
+      "time": "2026-09-26T16:15",
+      "temperature_c": 13.4,
+      "apparent_temperature_c": 10.4,
+      "humidity_percent": 77,
+      "wind_speed_kmh": 19.1,
+      "precipitation_mm": 0.0,
+      "weather_code": 3,
+      "conditions": "пасмурно"
+    },
+    {
+      "city": "Санкт-Петербург",
+      "ts_utc": "2026-09-26T16:12:41+00:00",
+      "time": "2026-09-26T19:00",
+      "temperature_c": 13.1,
+      "apparent_temperature_c": 10.1,
+      "humidity_percent": 81,
+      "wind_speed_kmh": 20.5,
+      "precipitation_mm": 0.0,
+      "weather_code": 3,
+      "conditions": "пасмурно"
+    },
+    {
+      "city": "Санкт-Петербург",
+      "ts_utc": "2026-09-26T16:12:42+00:00",
+      "time": "2026-09-26T19:00",
+      "temperature_c": 13.1,
+      "apparent_temperature_c": 10.1,
+      "humidity_percent": 81,
+      "wind_speed_kmh": 20.5,
+      "precipitation_mm": 0.0,
+      "weather_code": 3,
+      "conditions": "пасмурно"
+    },
+    {
+      "city": "Санкт-Петербург",
+      "ts_utc": "2026-09-26T16:13:27+00:00",
+      "time": "2026-09-26T19:00",
+      "temperature_c": 13.1,
+      "apparent_temperature_c": 10.1,
+      "humidity_percent": 81,
+      "wind_speed_kmh": 20.5,
+      "precipitation_mm": 0.0,
+      "weather_code": 3,
+      "conditions": "пасмурно"
+    },
+    {
+      "city": "Санкт-Петербург",
+      "ts_utc": "2026-09-26T16:13:27+00:00",
+      "time": "2026-09-26T19:00",
+      "temperature_c": 13.1,
+      "apparent_temperature_c": 10.1,
+      "humidity_percent": 81,
+      "wind_speed_kmh": 20.5,
+      "precipitation_mm": 0.0,
+      "weather_code": 3,
+      "conditions": "пасмурно"
+    },
+    {
+      "city": "Санкт-Петербург",
+      "ts_utc": "2026-09-26T16:19:37+00:00",
+      "time": "2026-09-26T19:15",
+      "temperature_c": 13.0,
+      "apparent_temperature_c": 10.1,
+      "humidity_percent": 82,
+      "wind_speed_kmh": 20.2,
+      "precipitation_mm": 0.0,
+      "weather_code": 3,
+      "conditions": "пасмурно"
+    },
+    {
+      "city": "Санкт-Петербург",
+      "ts_utc": "2026-09-26T16:19:38+00:00",
+      "time": "2026-09-26T19:15",
+      "temperature_c": 13.0,
+      "apparent_temperature_c": 10.1,
+      "humidity_percent": 82,
+      "wind_speed_kmh": 20.2,
+      "precipitation_mm": 0.0,
+      "weather_code": 3,
+      "conditions": "пасмурно"
+    },
+    {
+      "city": "Санкт-Петербург",
+      "ts_utc": "2026-09-26T16:19:38+00:00",
+      "time": "2026-09-26T19:15",
+      "temperature_c": 13.0,
+      "apparent_temperature_c": 10.1,
+      "humidity_percent": 82,
+      "wind_speed_kmh": 20.2,
+      "precipitation_mm": 0.0,
+      "weather_code": 3,
+      "conditions": "пасмурно"
+    },
+    {
+      "city": "Санкт-Петербург",
+      "ts_utc": "2026-09-26T16:19:52+00:00",
+      "time": "2026-09-26T19:15",
+      "temperature_c": 13.0,
+      "apparent_temperature_c": 10.1,
+      "humidity_percent": 82,
+      "wind_speed_kmh": 20.2,
+      "precipitation_mm": 0.0,
+      "weather_code": 3,
+      "conditions": "пасмурно"
+    },
+    {
+      "city": "Санкт-Петербург",
+      "ts_utc": "2026-09-26T16:19:52+00:00",
+      "time": "2026-09-26T19:15",
+      "temperature_c": 13.0,
+      "apparent_temperature_c": 10.1,
+      "humidity_percent": 82,
+      "wind_speed_kmh": 20.2,
+      "precipitation_mm": 0.0,
+      "weather_code": 3,
+      "conditions": "пасмурно"
+    },
+    {
+      "city": "Санкт-Петербург",
+      "ts_utc": "2026-09-26T16:38:36+00:00",
+      "time": "2026-09-26T19:30",
+      "temperature_c": 13.0,
+      "apparent_temperature_c": 10.2,
+      "humidity_percent": 82,
+      "wind_speed_kmh": 19.4,
+      "precipitation_mm": 0.0,
+      "weather_code": 3,
+      "conditions": "пасмурно"
+    },
+    {
+      "city": "Санкт-Петербург",
+      "ts_utc": "2026-09-26T16:38:36+00:00",
+      "time": "2026-09-26T19:30",
+      "temperature_c": 13.0,
+      "apparent_temperature_c": 10.2,
+      "humidity_percent": 82,
+      "wind_speed_kmh": 19.4,
+      "precipitation_mm": 0.0,
+      "weather_code": 3,
+      "conditions": "пасмурно"
+    },
+    {
+      "city": "Санкт-Петербург",
+      "ts_utc": "2026-09-26T16:38:48+00:00",
+      "time": "2026-09-26T19:30",
+      "temperature_c": 13.0,
+      "apparent_temperature_c": 10.2,
+      "humidity_percent": 82,
+      "wind_speed_kmh": 19.4,
+      "precipitation_mm": 0.0,
+      "weather_code": 3,
+      "conditions": "пасмурно"
+    },
+    {
+      "city": "Санкт-Петербург",
+      "ts_utc": "2026-09-26T16:38:48+00:00",
+      "time": "2026-09-26T19:30",
+      "temperature_c": 13.0,
+      "apparent_temperature_c": 10.2,
+      "humidity_percent": 82,
+      "wind_speed_kmh": 19.4,
+      "precipitation_mm": 0.0,
+      "weather_code": 3,
+      "conditions": "пасмурно"
+    },
+    {
+      "city": "Санкт-Петербург",
+      "ts_utc": "2026-09-26T16:39:42+00:00",
+      "time": "2026-09-26T19:30",
+      "temperature_c": 13.0,
+      "apparent_temperature_c": 10.2,
+      "humidity_percent": 82,
+      "wind_speed_kmh": 19.4,
+      "precipitation_mm": 0.0,
+      "weather_code": 3,
+      "conditions": "пасмурно"
+    },
+    {
+      "city": "Санкт-Петербург",
+      "ts_utc": "2026-09-26T16:39:42+00:00",
+      "time": "2026-09-26T19:30",
+      "temperature_c": 13.0,
+      "apparent_temperature_c": 10.2,
+      "humidity_percent": 82,
+      "wind_speed_kmh": 19.4,
+      "precipitation_mm": 0.0,
+      "weather_code": 3,
+      "conditions": "пасмурно"
+    },
+    {
+      "city": "Санкт-Петербург",
+      "ts_utc": "2026-09-26T16:40:42+00:00",
+      "time": "2026-09-26T19:30",
+      "temperature_c": 13.0,
+      "apparent_temperature_c": 10.2,
+      "humidity_percent": 82,
+      "wind_speed_kmh": 19.4,
+      "precipitation_mm": 0.0,
+      "weather_code": 3,
+      "conditions": "пасмурно"
+    },
+    {
+      "city": "Санкт-Петербург",
+      "ts_utc": "2026-09-26T16:41:42+00:00",
+      "time": "2026-09-26T19:30",
+      "temperature_c": 13.0,
+      "apparent_temperature_c": 10.2,
+      "humidity_percent": 82,
+      "wind_speed_kmh": 19.4,
+      "precipitation_mm": 0.0,
+      "weather_code": 3,
+      "conditions": "пасмурно"
+    },
+    {
+      "city": "Санкт-Петербург",
+      "ts_utc": "2026-09-26T16:42:42+00:00",
+      "time": "2026-09-26T19:30",
+      "temperature_c": 13.0,
+      "apparent_temperature_c": 10.2,
+      "humidity_percent": 82,
+      "wind_speed_kmh": 19.4,
+      "precipitation_mm": 0.0,
+      "weather_code": 3,
+      "conditions": "пасмурно"
+    },
+    {
+      "city": "Санкт-Петербург",
+      "ts_utc": "2026-09-26T16:43:42+00:00",
+      "time": "2026-09-26T19:30",
+      "temperature_c": 13.0,
+      "apparent_temperature_c": 10.2,
+      "humidity_percent": 82,
+      "wind_speed_kmh": 19.4,
+      "precipitation_mm": 0.0,
+      "weather_code": 3,
+      "conditions": "пасмурно"
+    },
+    {
+      "city": "Санкт-Петербург",
+      "ts_utc": "2026-09-26T16:44:42+00:00",
+      "time": "2026-09-26T19:30",
+      "temperature_c": 13.0,
+      "apparent_temperature_c": 10.2,
+      "humidity_percent": 82,
+      "wind_speed_kmh": 19.4,
+      "precipitation_mm": 0.0,
+      "weather_code": 3,
+      "conditions": "пасмурно"
+    },
+    {
+      "city": "Санкт-Петербург",
+      "ts_utc": "2026-09-26T16:45:42+00:00",
+      "time": "2026-09-26T19:45",
+      "temperature_c": 13.0,
+      "apparent_temperature_c": 10.4,
+      "humidity_percent": 83,
+      "wind_speed_kmh": 18.7,
+      "precipitation_mm": 0.0,
+      "weather_code": 3,
+      "conditions": "пасмурно"
+    },
+    {
+      "city": "Санкт-Петербург",
+      "ts_utc": "2026-09-26T16:46:42+00:00",
+      "time": "2026-09-26T19:45",
+      "temperature_c": 13.0,
+      "apparent_temperature_c": 10.4,
+      "humidity_percent": 83,
+      "wind_speed_kmh": 18.7,
+      "precipitation_mm": 0.0,
+      "weather_code": 3,
+      "conditions": "пасмурно"
+    }
+  ],
+  "reports": [
+    {
+      "city": "Санкт-Петербург",
+      "period_from": "2026-09-26T13:08:57+00:00",
+      "period_to": "2026-09-26T16:42:42+00:00",
+      "checks": 23,
+      "temp_avg_c": 13.1,
+      "temp_min_c": 13.0,
+      "temp_max_c": 13.4,
+      "total_precipitation_mm": 0,
+      "rainy_checks": 0,
+      "rain_share_pct": 0.0,
+      "conditions_freq": {
+        "пасмурно": 23
+      },
+      "last_check": {
+        "local_time": "2026-09-26T19:30",
+        "temperature_c": 13.0,
+        "precipitation_mm": 0.0,
+        "conditions": "пасмурно"
+      },
+      "raining_now": false,
+      "umbrella": "не нужен",
+      "generated_at": "2026-09-26T16:42:42+00:00",
+      "delivered": true
+    },
+    {
+      "city": "Санкт-Петербург",
+      "period_from": "2026-09-26T16:42:42+00:00",
+      "period_to": "2026-09-26T16:45:42+00:00",
+      "checks": 3,
+      "temp_avg_c": 13.0,
+      "temp_min_c": 13.0,
+      "temp_max_c": 13.0,
+      "total_precipitation_mm": 0,
+      "rainy_checks": 0,
+      "rain_share_pct": 0.0,
+      "conditions_freq": {
+        "пасмурно": 3
+      },
+      "last_check": {
+        "local_time": "2026-09-26T19:45",
+        "temperature_c": 13.0,
+        "precipitation_mm": 0.0,
+        "conditions": "пасмурно"
+      },
+      "raining_now": false,
+      "umbrella": "не нужен",
+      "generated_at": "2026-09-26T16:45:42+00:00",
+      "delivered": true
+    }
+  ],
+  "config": {
+    "collection": {
+      "city": "Санкт-Петербург",
+      "interval_minutes": 1.0
+    },
+    "report_schedule": {
+      "interval_minutes": 3.0
+    }
+  }
+}
